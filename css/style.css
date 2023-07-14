@@ -412,7 +412,7 @@ border: 4px solid rgba(0,202,222,0.5);
 #blue-bg{
   position: relative;
   bottom: 100%;
-  left: calc(102% + 1px);
+  left: 101%;
 }
 #translucent-logo{
   position: relative;
@@ -502,6 +502,19 @@ border: 1px solid #b8f2f8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.celebtext {
+  width: 180px; 
+  height: 189px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #6297cc ;
+  
+}
+.celebtext img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 #celebtext{
   display: flex;
