@@ -1,0 +1,645 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    margin: 0;
+  }
+
+main {
+    display: block;
+  }
+  .uni-padding {
+    padding: 0 7%;
+  }
+  
+  .bi {
+    color: white;
+    background-color: #00bccc;
+    padding: 7px 9px;
+    border-radius: 50%;
+  }
+  
+  /* Topbar */
+  #topbar {
+    background-image: linear-gradient(270deg, #1c6ac6 0%, #00c7d8 100%);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+  }
+  
+  /* Toll free number */
+  #tollfree {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+  
+  
+  /* Toll free icon */
+  #tollfree-icon {
+    margin-right: 5px;
+  }
+  
+  /* Email address */
+  #email {
+    color: #fff;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 300;
+    white-space: nowrap;
+  }
+  
+  /* Email id */
+  #email-id {
+    margin-right: 5px;
+  }
+  
+  /* Social icons */
+  #social-icon {
+    margin-top: 5px;
+  }
+  
+  /* Connect text */
+  #connect {
+    color: #fff;
+    font-size: 12px;
+    font-family: montserrat;
+    font-weight: 300;
+    white-space: nowrap;
+    padding-right: 10px;
+  }
+  
+  /* Social icons */
+  .bi {
+    color: #fff;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  
+  #social-icon,
+  #connect {
+    display: inline-block;
+  }
+  
+  #tollfree {
+    float: right;
+  }
+  
+  #email-id,
+  #email {
+    display: inline-block;
+  }
+  
+  #bottombar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  
+  #bottombar #logo {
+    margin-right: auto;
+    
+  }
+  
+  #bottombar #menubar {
+    
+    box-sizing: border-box;
+  }
+  #menubar{
+    font-family: open sans;
+  }
+  
+  #bottombar #menubar a {
+    
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+    font-size: 15px;
+  }
+  
+  #homeocare-img {
+    width: 100%;
+  }
+
+  /* Form styles */
+  #appointment-heading{
+    font-family: open sans;
+  }
+  #name, #email, #phone, #message, #submit{
+    font-family: roboto;
+  }
+#book-appointment {
+    background-image: linear-gradient(90deg, #00cade 0%, #0fe7fc 50%, #00cade 100%);
+    position: relative;
+    left: 70%;
+    height: 350px;
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 5px;
+    right: 12%;
+  }
+  
+  #book-appointment.horizontally-right {
+    float: right;
+  }
+  
+  #book-appointment h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #book-appointment form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  #book-appointment label {
+    font-weight: bold;
+  }
+  
+  #book-appointment input[type="text"],
+  #book-appointment input[type="email"],
+  #book-appointment input[type="tel"],
+  #book-appointment textarea {
+    width: 300px;
+    height: 30px;
+    border-radius: 2px;
+    filter: drop-shadow(0px 3px 3px rgba(0, 93, 102, 0.1));
+    background-color: rgba(10, 87, 169, 0.2);
+    border: 1px solid #3bedff;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  #book-appointment textarea {
+    resize: none;
+  }
+  
+  #book-appointment button[type="submit"] {
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 305.6px;
+    height: 52px;
+    background-color: #ffc90c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #book-appointment button[type="submit"]:hover {
+    background-color: #0099b8;
+  }
+  #book-appointment{
+    position: absolute;
+     border: 4px solid #ffc90c;
+    }
+  #content{
+    padding: 12px;
+  }
+  /*homeocare matter */
+  #description{
+    width: 1120px;
+    position: relative;
+  }
+  #description, #book-appointment{
+    display: inline-block;
+  }
+
+  #homeocare-logo{
+    margin-top: 35px;
+    width: 161px;
+    height: 161px;
+    filter: drop-shadow(0 0 7.5px rgba(8,85,167,0.15));
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 15px;
+    float: left;
+    
+  }
+
+  #welcome{
+    margin-top: 50px;
+    font-family: open sans;
+    color: #00cade;
+  
+  }
+  #homeocare{
+    font-family: open sans;
+  }
+
+  #welcome, #homeocare{
+    font-size: 28px;
+line-height: 36px;
+  }
+  #mattercontent, #mattercontent2{
+    font-family: roboto;
+    font-size: 15px;
+    float: left;
+    width: calc(100% - 620px);
+    text-align: justify;
+  }
+
+  #mattercontent2{
+    clear: left;
+    margin-left: 15px;
+    width: calc(100% - 389px);
+  }
+  
+  .break-line {
+    height: 2px;
+    background-color: #0de3f8;
+    opacity: 0.149;
+    margin-top: 80px;
+  }
+
+
+  /*know more*/
+  #ourtreatment{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: #fafafa;
+    
+    
+  }
+  #thyroidhead, #kidneyhead, #arthritishead{
+    font-family: roboto;
+    color: #014d9f;
+    
+  }
+  
+  #treatmentheading{
+    
+    text-align: center;
+    font-family: open sans;
+    font-size: 32px;
+  }
+
+  .treatment-flex{
+      
+      flex: 1;
+      max-width: 400px; /* limiting to 400px so they won't take up the full width */
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      flex-wrap: wrap;
+      width: 363px;
+      height: 296px;
+      border-radius: 5px;
+      filter: drop-shadow(0px 4px 7px rgba(31,52,93,0.08));
+      background-color: #ffffff;
+  }
+
+  .know-more{
+    margin-top: 35px;
+    background-color: white;
+    width: 154px;
+    height: 36px;
+    border-radius: 18px;
+    filter: drop-shadow(0px 2px 5px rgba(43,73,132,0.12));
+    color: #00b6cf;
+    cursor: pointer;
+  }
+
+  
+
+  .abouttreatment{
+    width: 363px;
+    height: 65px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 300;
+    font-family: roboto;
+    text-align: center;
+  }
+
+ 
+    .logo-border {
+      width: 114px;
+      height: 114px;
+      border-radius: 57px;
+      background-color: rgba(61, 144, 239, 0);
+      border: 3px solid rgba(0, 202, 222, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    
+/*chairman*/
+#chairman-break{
+width: 332px;
+height: 1px;
+background-color: #7fe4ee;
+margin: 0 auto;
+}
+
+#chairman-pic{
+  border-radius: 50%;
+}
+
+#message-border{
+margin-top: 100px;
+width: 870px;
+height: 377px;
+background-color: #ffffff;
+border: 4px solid rgba(0,202,222,0.5);
+}
+
+#chairmanheading, #message1, #message2, #chairman-career, #read-button{
+  margin:  25px;
+}
+#chairmanheading, #message1, #message2{
+  margin: 19px 25px;
+}
+#message1, #message2{
+  text-align: justify;
+  font-family: roboto;
+}
+#chairman-career{
+  text-align: center;
+}
+#chairman-name{
+  color: #0c55a4;
+  font-family: roboto;
+}
+#chairman-designation{
+  font-family: roboto;
+}
+#chairmanheading{
+  font-size: 32px;
+  font-family: open sans;
+}
+#read-button, #chairman-career{
+  display: inline-block;
+  
+}
+#read-button{
+  margin-right: 400px;
+}
+
+#chairman-pic {
+  position: relative;
+  bottom: 115%;
+  left: 120%;
+  z-index: 1;
+  }
+#blue-bg{
+  position: relative;
+  bottom: 100%;
+  left: calc(102% + 1px);
+}
+#translucent-logo{
+  position: relative;
+  bottom: 115%;
+  left: 80%;
+}
+
+/* why homeocare */
+.outerbox-violet{
+width: 277px;
+height: 267px;
+border-radius: 5px;
+background-color: #f2f8ff;
+border: 1px solid #c6dfff;
+}
+
+.innerbox{
+  width: 255px;
+height: 180px;
+border-radius: 5px;
+filter: drop-shadow(0px 4px 5px rgba(0,73,158,0.15));
+background-color: #ffffff;
+}
+
+.outerbox-blue{
+  width: 278px;
+height: 267px;
+border-radius: 5px;
+background-color: #e8fdff;
+border: 1px solid #b8f2f8;
+}
+.description-36, .clinics, .treated1, .treated2, .doc-description{
+  font-family: open sans;
+}
+
+#whyhomeocare-out{
+  background-color: #f5f9fc;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#whyhomeocare{
+  
+  display: flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 1;
+}
+
+.outerbox-violet, .outerbox-blue, .innerbox{
+  display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content:space-between;
+}
+.innerbox{
+  position: relative;
+  top: 15px;
+}
+.innerbox img{
+  position: relative;
+  top: 15px;
+}
+.description-36{
+  margin-bottom: 5px;
+}
+.description-361{
+  margin-top: 1px ;
+}
+.doc-description, .clinics{
+  margin-bottom: 25px;
+}
+.treated1{
+  margin-bottom: 5px;
+}
+.treated2{
+  margin-top: 1px ;
+}
+#why{
+  margin: 0 auto;
+  text-align: center;
+  margin: 40px;
+  font-family: open sans;
+}
+/* pictures */
+#celeb-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#celebtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#celebs{
+  margin: 40px auto;
+  text-align: center;
+  font-family: open sans;
+}
+#actors{
+  font-family: open sans;
+}
+#disclaimer{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+#disclaimer-text{
+  margin: 15px auto;
+  text-align: center;
+  font-family: roboto;
+  text-transform: uppercase;
+}
+#disclaimer-border{
+width: 520px;
+height: 49px;
+background-color: #ffffff;
+border: 3px solid rgba(0,202,222,0.5);
+}
+
+/* footer */
+#footer-box{
+  width: 1170px;
+  height: 283px;
+  border-radius: 5px;
+  background-color: #004590;
+}
+#footer-inner{
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#flex-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+#yellow-line{
+width: 45px;
+height: 2px;
+background-color: #ffcb05;
+}
+
+#corp, #contactus-heading, #branches-heading, #linksheading{
+  margin-top:0 ;
+}
+
+
+#location-icon{
+  float: left;
+ 
+}
+#address{
+  text-align: center;
+  margin: 25px;
+  color: #9ccbff;
+}
+
+.dotted-line, .dotted-line2{
+  margin-bottom: 2px;
+  text-align: center;
+  opacity: 0.200;
+font-size: 22px;
+letter-spacing: 4px;
+line-height: 30px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+}
+
+.dotted-line2{
+    margin-top: 0px;
+}
+
+#footer-box{
+  color: white;
+  font-family: roboto;
+}
+#footer-connect{
+  font-size: 10px;
+  color: #e3f5ff;
+}
+#footer-container{
+  height: 357px;
+  position: relative;
+
+}
+#top-half{
+  height: 39%;
+  background-color: white;
+}
+#bottom-half{
+  z-index: -1;
+  padding:0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  height: 61%;
+  background-color: #00bdd0;
+  width: 100%;
+}
+
+#copyright{
+  color: white;
+  font-family: roboto;
+  text-align: center;
+}
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li:before {
+  font-size: 20px;
+  content: "\2022"; /* Bullet character (•) */
+  color: #1466be; /* Change the color to your desired value */
+  margin-right: 8px;
+  margin-left: 16px; /* Optional: Adjust the spacing between bullet and text */
+}
+.dotted-line{
+  font-family: montserrat;
+  font-size: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
