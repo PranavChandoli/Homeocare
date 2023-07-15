@@ -657,6 +657,7 @@ text-align: center;
   content: "\2022"; 
   color: #1466be; 
   margin-left: 16px; 
+  margin-right: 20px;
 }
 .dotted-line{
   font-family: montserrat;
