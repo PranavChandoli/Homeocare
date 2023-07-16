@@ -249,7 +249,7 @@ main {
   }
 
   #welcome{
-    margin-top: 50px;
+    margin-top: 35px;
     font-family: open sans;
     color: #00cade;
   
@@ -421,7 +421,7 @@ border: 4px solid rgba(0,202,222,0.5);
 #blue-bg{
   position: absolute;
   bottom: 0%;
-  left: 133%;
+  left: calc(135% - 1px);
 }
 #translucent-logo{
   position: relative;
@@ -518,12 +518,20 @@ border: 1px solid #b8f2f8;
   border-radius: 50%;
   overflow: hidden;
   border: 10px solid #6297cc ;
-  
+  display: flex;
+  flex-direction: column;
+  align-items
 }
-.celebtext img {
+
+.pictures{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.actor-container{
+  margin: 0 auto;
+  text-align: center;
+  font-family: open sans;
 }
 #celebtext{
   display: flex;
@@ -539,6 +547,13 @@ border: 1px solid #b8f2f8;
 #actors{
   font-family: open sans;
 }
+#actor-name{
+  margin-top: 100;
+  z-index: 1;
+}
+
+
+
 #disclaimer{
   display: flex;
   justify-content: center;
@@ -559,7 +574,8 @@ border: 3px solid rgba(0,202,222,0.5);
 
 /* footer */
 #footer-box{
-  width: 1170px;
+  box-sizing: border-box;
+  width: 100%;
   height: 283px;
   border-radius: 5px;
   background-color: #004590;
